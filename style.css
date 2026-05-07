@@ -6,7 +6,13 @@
     box-sizing: border-box;
 }
 
-body{background: #222;}
+body{
+    background: #222; 
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
 
 /*-- CARTA --*/
 .card{
@@ -102,4 +108,16 @@ body{background: #222;}
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+/* AJUSTES PARA MÓVILES */
+@media (max-width: 450px) {
+    .card {margin: 50px auto; padding: 25px 20px;}
+    .search input {padding: 10px 15px; font-size: 16px; height: 50px;}
+    .search button {width: 50px; height: 50px;}
+    .weather h1 {font-size: 60px;}
+    .weather h2 {font-size: 30px;}
+    .details {padding: 0; margin-top: 30px;}
+    .humidity, .wind {font-size: 20px;}
+    .col img {width: 30px;}
 }
