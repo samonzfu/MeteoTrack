@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeteoTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Escribe el nombre de la ciudad" spellcheck="false">
+        <button><img src="images/search.png" alt="icono de búsqueda"></button>
+    </div>
+    <div class="error">
+        <p>Nombre de ciudad no válido.</p>
+    </div>
+    <div class="weather">
+        <img src="images/rain.png" class="weather-icon" alt="icono lluvia">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Burjassot</h2> 
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png"  alt="humedad icono">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png"  alt="viento icono">
+                <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="module" src="main.js" ></script>
+
+</body>
+</html>
