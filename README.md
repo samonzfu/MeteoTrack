@@ -48,8 +48,3 @@ npm run dev
 ```
 
 ---
-
-## Créditos
-
-Proyecto inspirado en el contenido educativo de **GreatStack**. 
-▶️ [Link a su canal de YouTube](https://www.youtube.com/@GreatStackDev)
